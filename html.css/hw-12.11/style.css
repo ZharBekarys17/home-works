@@ -1,0 +1,114 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .header-nav-ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: orange;
+        top: 80px;
+        left: -100px;
+        text-align: center;
+        transition: all .5s;
+    }
+    .header-nav-ul li {
+        display: block;
+        margin:50px 0 ;
+        line-height: 30px;
+
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+  }
+  section{
+    background-size:cover ;
+    height: calc(100vh - 80px);
+  }
+  /* Desktop Styles */
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    /* width: 100%;
+    padding: 10px, 20px;
+    text-align: right;
+    box-sizing: border-box;
+    display: none; */
+}
+#check {
+    display: none;
+}
+@media only screen and (min-width: 961px) {
+    .header-nav-ul li{
+        font-size: 16px;
+    }
+}
+.header-nav-backround {
+    background-color: orange;
+}
+.header-nav-words {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 15px;
+}
+.nav-line {
+    padding-top: 20px;
+}
+.header-nav-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-nav-img {
+    border-radius: 25%;
+    padding-left: 7px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+}
+.header-nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    position: relative;
+    left: -270px;
+}
+.Login {
+    background-color: orange;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+}
+.Sign-Up {
+    border: 1px solid white;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+}
+.header-nav-p {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border-radius: 25%;
+}
+.header-main-words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}

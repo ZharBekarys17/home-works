@@ -1,0 +1,12 @@
+.header-nav-backround {
+    background-color: orange;
+}
+.header-nav-words {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 15px;
+}
+.nav-line {
+    padding-top: 20px;
+}
