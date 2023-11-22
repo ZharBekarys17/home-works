@@ -68,3 +68,35 @@ splitted_text =  text.split()
 splitted_text = set(splitted_text)
 splitted_text = len(splitted_text)
 print(f'{splitted_text} - the len of unique words in text')
+
+## About_me = {
+#     'name':'Bekarys',
+#     'age':16,
+#     'surname':'Zharmagambet',
+#     'family':{
+#         'sister':{
+#             'name':'Balausa',
+#             'age':18,
+#             'surname':'Bale',
+#             'boyfriend':'has',
+#             'her_boyfriend':['???', '???', '???'],
+#             'is_she_old?':True,
+#         },
+#     'My_laptop':{'Victus', 'HP'},
+#     'My_adress':('street', 'Maulenov'),
+#     },
+# }
+# courses : ['html', 'css', 'puthon']
+# About_me['courses'] =['html', 'css', 'puthon']
+# whishes : {'helicopter', 'MacBook'}
+# # print(About_me[whishes])
+# # print(About_me['My_laptop'])
+# About_me['family']['sister']['her_boyfriend'].append('Taldykorgan')
+# print(About_me['family']['sister']['her_boyfriend'])
+# About_me['age'] = About_me['age']+1
+# print(About_me['age'])
+# # get() to get a key from dict
+# print(About_me.get('name'))
+# # (18 in About_me['family']['sister']['age'])
+# # items() - to turn dict to list
+# print(About_me.items())
